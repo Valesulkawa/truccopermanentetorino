@@ -17,7 +17,7 @@ const FACEBOOK_URL = 'https://www.facebook.com/PMUTorino/';
 const EXTERNAL_LINK_PROPS = { target: '_blank', rel: 'noopener noreferrer' };
 
 const images = {
-  rosanna: '/images/rosanna-hero.jpg',
+  rosanna: '/images/rosanna-hero2.png',
   sopracciglia: '/images/sopracciglia.jpg',
   labbra: '/images/labbra.jpg',
   occhi: '/images/occhi.jpg',
@@ -229,14 +229,13 @@ function Hero() {
               <div className="h-[390px] overflow-hidden rounded-[1.45rem] sm:h-[560px] sm:rounded-[2rem]">
                 <img src={images.rosanna} alt="Rosanna Dell'Olio, trucco permanente Torino" className="mask-fade h-full w-full scale-[1.12] object-cover object-[center_18%]" />
               </div>
-              <div className="absolute bottom-3 left-3 right-3 rounded-[1.25rem] border border-white/15 bg-[#211714]/78 p-3 text-white shadow-xl backdrop-blur-xl sm:bottom-5 sm:left-5 sm:right-5 sm:rounded-[1.7rem] sm:p-5">
+              <div className="absolute bottom-3 left-3 right-3 rounded-[1.25rem] border border-white/15 bg-[#211714]/84 p-3 text-white shadow-xl backdrop-blur-xl sm:bottom-5 sm:left-5 sm:right-5 sm:rounded-[1.7rem] sm:p-5">
                 <p className="text-[10px] font-bold uppercase tracking-[.18em] text-[#d9b76c] sm:text-xs">Consulenza gratuita</p>
                 <p className="mt-1.5 text-base font-black leading-tight sm:mt-2 sm:text-lg">Prima si valuta il viso. Poi si sceglie il trattamento.</p>
                 <div className="mt-2 grid gap-1.5 text-[11px] leading-5 text-white/72 sm:mt-3 sm:gap-2 sm:text-xs">
                   <span className="flex items-center gap-2"><ChevronRight className="h-3.5 w-3.5 text-[#d9b76c]" /> Forma, colore e intensità personalizzati</span>
                   <span className="flex items-center gap-2"><ChevronRight className="h-3.5 w-3.5 text-[#d9b76c]" /> Risposta rapida su WhatsApp</span>
                 </div>
-                <a href={whatsappLink('Ciao Rosanna, vorrei prenotare una consulenza gratuita per trucco permanente a Torino.')} {...EXTERNAL_LINK_PROPS} className="gold-sheen mt-3 inline-flex cursor-pointer items-center justify-center gap-2 rounded-full px-3.5 py-2 text-xs font-black text-[#211714] shadow-lg sm:mt-4 sm:px-4 sm:py-2.5">Scrivimi ora <MessageCircle className="h-3.5 w-3.5" /></a>
               </div>
             </div>
           </div>
